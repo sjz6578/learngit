@@ -5,5 +5,6 @@ int main(int argc, char **argv)
         char buffer[96];
         printf("- %p -\\n", &buffer);
         strcpy(buffer, getenv("KIRIKA"));
+	printf("add one line in middle\n");
         return 0;
 }
